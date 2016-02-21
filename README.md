@@ -2,7 +2,7 @@
 
 Just a PoC in Python to submit suspicious samples directly to VirusTotal and Hybrid-Analysis.
 
-Once you execute this short program it will ask you for a file/attachment to evaluate. After you select that file, a SHA256 hash will be calculated and your default browser will open (if not yet open, in which case two new tabs will appear) VirusTotal and Hybrid-Analysis pages to check if a sample with that hash has already been analyzed by these malware databases.
+Once you execute this short program it will ask you for a file/attachment to evaluate. After you select that file, a SHA256 hash will be calculated and your default browser will be open (if not yet open, in which case two new tabs will appear) pointing to VirusTotal and Hybrid-Analysis to check if a sample with that hash has already been analyzed by these malware databases.
 
 The point here is to show to our employees how simple could be to check a suspicious or unknown file before OPENING it.
 
