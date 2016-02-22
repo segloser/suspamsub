@@ -1,5 +1,5 @@
 STEPS:
-1.- Download suspamsub_autoinstall.exe
+1.- Download suspamsub_autoinstall.exe (click RAW)
 2.- Store it in "C:\"
 3.- Execute it there and select C:\ as destination folder (if not already done by default)
 4.- Access to the directory created and execute the reg_addition.bat file with administrator privileges
