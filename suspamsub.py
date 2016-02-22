@@ -31,6 +31,7 @@ __license__ = 'All Rights Reserved'
 import webbrowser
 import hashlib
 import re
+import sys
 import Tkinter as tk
 from tkFileDialog import askopenfilename
 import time
@@ -91,21 +92,22 @@ webbrowser.open("https://www.google.es/search?q=" + MD5)
 # Opening a Valkyrie COMODO tab (MSOffice docs not supported
 # webbrowser.open("https://valkyrie.comodo.com/get_info?sha1=" + SHA1)
 
+### IN PYTHON THE MALWR.COM WORKS WELL. IN THE EXE VERSION SOME PROBLEMS ARISED. 
+### UNCOMMENT BELOW IF IN PYTHON
 # Malwr submission (registration needed to get your own api-key
-api_value = {'api_key':"type your API here"} # DO NOT FORGET TO TYPE YOUR API
-api_found = re.match(r'[A-Fa-f0-9]{32}', api_value['api_key'])
-if api_found:
-#if api_value['api_key'] != "type your API here":
-    params = urllib.urlencode({'api_key': api_value['api_key'], 'shared': "yes", 'file': path})
-    f = urllib.urlopen("https://malwr.com/api/analysis/add/", params)
-    # This will save a local html file with malwr response to your request
-    malwr_sub = open(("submission_" + SHA1 + ".html"), "w")
-    malwr_sub.write(f.read())
-    webbrowser.open("submission_" + SHA1 + ".html")
-    f.close()
-    malwr_sub.close()
-else:
-    print "You have to introduce your API for accessing www.malwr.com services"
+# api_value = {'api_key':"type your API here"} # DO NOT FORGET TO TYPE YOUR API
+#api_found = re.match(r'[A-Fa-f0-9]{32}', api_value['api_key'])
+#if api_found:
+#    params = urllib.urlencode({'api_key': api_value['api_key'], 'shared': "yes", 'file': path})
+#    f = urllib.urlopen("https://malwr.com/api/analysis/add/", params)
+#    # This will save a local html file with malwr response to your request
+#    malwr_sub = open(("submission_" + SHA1 + ".html"), "w")
+#    malwr_sub.write(f.read())
+#    webbrowser.open("submission_" + SHA1 + ".html")
+#    f.close()
+#    malwr_sub.close()
+#else:
+#    print "You have to introduce your API for accessing www.malwr.com services"
 
 # Vicheck format: https://www.vicheck.ca/md5query.php?hash=<md5>
 webbrowser.open("https://www.vicheck.ca/md5query.php?hash=" + MD5)
@@ -119,3 +121,16 @@ webbrowser.open("https://www.virustotal.com/file/" + SHA256 + "/analysis/")
 # Opening a web browser tab or page in Hybrid-Analysis 
 # to check if sample is already analyzed
 webbrowser.open("https://www.hybrid-analysis.com/sample/" + SHA256)
+
+wanna_close = raw_input("Have you finished your submission? (y/n): ")
+wanna_close = wanna_close.lower()
+while wanna_close != "y" and wanna_close != "n":
+    print "Only write 'y' or 'n' without the quotes, please"
+    wanna_close = raw_input("Have you finished your submission? (y/n): ")
+if wanna_close == "y" or wanna_close == "yes":
+    print "Well done! Suspicious files must be checked."
+    time.sleep(5)
+    sys.exit("Closing the app NOW!")
+    
+else:
+    print "Close the application mannually when finished."
