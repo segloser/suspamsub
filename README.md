@@ -21,8 +21,8 @@ Opening unknown files or unexpected attachments in emails could ruin your compan
 
 Please, develop tools based on this concept and train your employees to check every unsolicited file. 
 
-Routinary and automatic AntiVirus analysis of non-executable files like Microsoft Word/Excel or PDF documents, could include malicious code (macros or obfuscated JavaScript). Your employees should already know this.
+Routinary and automatic AntiVirus analysis of non-executable files like Microsoft Word/Excel or PDF documents are yet imprecise. Even after passing a generic (hash) security check, these files could include malicious code (macros or obfuscated JavaScript). Your employees should already know this. If not, this code is for training them.
 
-Help your employees to develop a digital common sense.
+<b>Help your employees to develop a digital common sense.</b>
 
 Thanks.
