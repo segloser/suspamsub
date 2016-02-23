@@ -1,5 +1,6 @@
 # suspamsub
 
+![alt tag](Check_Emails_Attachments_EXAMPLE.gif)
 SHORT VERSION:
 Go to Windows 7/Directory_Installer and download the self-extracting exe. Follow the detailed instrucions in the README (briefly speaking, execute the self-extracting file in C:\ and execute the reg_addition.bat file with administrator privileges; then just right click and select the Check_SPAM option).
 
