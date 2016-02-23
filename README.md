@@ -2,10 +2,10 @@
 
 ![alt tag](Check_Emails_Attachments_EXAMPLE.gif)
 SHORT VERSION:
-Go to <Windows 7/Directory_Installer> and download the self-extracting exe. Follow the detailed instrucions in the README (briefly speaking, execute the self-extracting file in <C:\> and execute the <reg_addition.bat> file with administrator privileges; then just right click and select the Check_SPAM option).
+Go to "Windows7/Directory_Installer" and download the self-extracting exe. Follow the detailed instrucions in the README (briefly speaking, execute the self-extracting file in "C:\" and execute the "reg_addition.bat" file with administrator privileges; then just right click and select the Check_SPAM option).
 
 In you do not trust an unknown exe (which is a very intelligente posture), review the Python code and use for your tests.
-You can use <py2exe> and <WinRAR> to make your own executables.
+You can use py2exe and WinRAR to make your own executables.
 
 
 DETAILED VERSION:
