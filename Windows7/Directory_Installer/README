@@ -1,18 +1,16 @@
 STEPS:
-1.- Download suspamsub_autoinstall.exe (click RAW)
+1.- Download "suspamsub_autoinstall.exe" (click RAW)
 2.- Store it in "C:\"
-3.- Execute it there and select C:\ as destination folder (if not already done by default)
-4.- Access to the directory created and execute the reg_addition.bat file with administrator privileges
-5.- Test the Suspicious Spam Submission Application from the Desktop (right click and select "Check_SPAM")
+3.- Execute it there and select "C:\" as destination folder (if not already done by default)
+4.- Access to the directory created "suspamsub_autoinstall" and execute the "reg_addition.bat" file with administrator privileges
+5.- Test the Suspicious Spam Submission Application from the Desktop (right click in a clean area of the Desktop and select "Check_SPAM")
 
-VERBAL EXPLANATIONS:
-
-
-The file suspamsub.exe is a self-extracting executable that will unzip the main program in exe format besides the corresponding dependencies.
+LONGER EXPLANATIONS:
+The file "suspamsub_autoinstall.exe" is a self-extracting executable that will unzip the main program in .exe format besides the corresponding dependencies.
 
 In order to properly work from the context menu (right click in a clean surface of the desktop), a registry modification is needed.
 
-This means that the first thing to do, once the exe had finished extracting the files, is executing the batch file (reg_addition.bat).
+This means that the first thing to do, once the .exe had finished extracting the files, is executing the batch file (reg_addition.bat) as administrator.
 
 After that, to test the program, you will only have to right click while in the Desktop and select "Check_SPAM". This will open a file dialogue for you to select a file to evaluate.
 
