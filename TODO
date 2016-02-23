@@ -1,6 +1,6 @@
 # Add more malware databases
-# Add API if needed for sites requiring user registration
+# Add API if needed for sites requiring user registration (malwr API included in the Python code, but commented in the exe version)
 # Add sample submission when analysis is not available yet
-# Create a Windows EXE with context menu option
+# Create a Windows EXE with context menu option (done for Windows 7) 
 # This is just a PoC. If time allows it, a serious application will be developed and real useful features included in this TODO file
 # TRAIN YOUR EMPLOYEES WITH USEFULL TOOLS AND PoCs
