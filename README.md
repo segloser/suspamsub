@@ -9,7 +9,7 @@ You can use py2exe and WinRAR to make your own executables.
 
 
 <b>DETAILED VERSION:</b>
-Just a PoC in Python to submit suspicious samples directly to VirusTotal, Hybrid-Analysis, Malwr and some others.
+Just a PoC in Python to submit suspicious <b>hashes</b> of samples (not the sample itself) directly to VirusTotal, Hybrid-Analysis, Malwr and some others.
 
 Once you execute this short program it will ask you for a file/attachment to evaluate. After you select that file, three common hashes (deprecated like MD5 or SHA1, and still in use like SHA256) will be calculated and your default browser will be open (if not yet open, in which case some new tabs will appear) pointing to VirusTotal and Hybrid-Analysis, among others, <b>to check if a sample with those hashes has already been analyzed by these malware databases.</b>
 
